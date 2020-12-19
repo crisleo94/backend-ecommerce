@@ -1,12 +1,22 @@
 {
   "name": "backend-ecommerce",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "simple CRUD API with mongo",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "format": "prettier --write \"**/*.js\""
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "CodeScripters",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
 }
