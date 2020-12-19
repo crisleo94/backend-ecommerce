@@ -5,3 +5,5 @@ const PORT = process.env.NODE_PORT || 3000
 app.listen(PORT)
 
 console.log('Server started in port: ', PORT)
+
+module.exports = app
